@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f0ac28-44e2-45cb-9d05-6972740c4df4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/js/jquery-1.11.3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/css/collectorStyle.css" afterPath="$PROJECT_DIR$/front/css/collectorStyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/html/collector.html" afterPath="$PROJECT_DIR$/front/html/collector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/js/collectorScript.js" afterPath="$PROJECT_DIR$/front/js/collectorScript.js" />
     </list>
     <ignored path="HACKATHON2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -285,7 +281,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448486773291</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="collector">
+      <created>1448489059398</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1448489059398</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
