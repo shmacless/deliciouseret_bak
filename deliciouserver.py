@@ -1,5 +1,6 @@
 import tornado.ioloop
 import tornado.web
+import json
 
 
 class MainHandler(tornado.web.RequestHandler):
@@ -13,20 +14,23 @@ class Collector(tornado.web.RequestHandler):
         self.render("front/html/collector.html")  # , title="My title", items=items)
 
 
-class getPair(tornado.web.RequestHandler):
+class getInfo(tornado.web.RequestHandler):
     def get(self, *args, **kwargs):
-        return
+        movie = {"id": "1", "name": "movie_name", "image":"movie_image"}
+        recipe = {"id": "1", "name": "movie_name", "image":"movie_image"}
+        json_dict = {"movie": movie, "recipe": recipe}
+        self.finish(json.dump(json_dict, self))
 
 
 class postRating(tornado.web.RequestHandler):
     def post(self, *args, **kwargs):
-        return
+        pass
 
 
 def make_app():
     return tornado.web.Application([
         (r"/", Collector),
-        (r"/getPair", getPair),
+        (r"/getPair", getInfo),
         (r"/postRating", postRating),
     ])
 
