@@ -28,8 +28,8 @@
       <file leaf-file-name="deliciouserver.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deliciouserver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65789473">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.57894737">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -237,7 +237,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448480780267</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="getPair written">
+      <created>1448488982187</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1448488982187</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -284,7 +290,8 @@
     <MESSAGE value="added rules to gitignore and new backend branch" />
     <MESSAGE value="Collector open by default" />
     <MESSAGE value="added getPair and postRating commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="added getPair and postRating commands" />
+    <MESSAGE value="getPair written" />
+    <option name="LAST_COMMIT_MESSAGE" value="getPair written" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -477,8 +484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deliciouserver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65789473">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.57894737">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
